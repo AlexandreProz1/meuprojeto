@@ -274,3 +274,24 @@ h1 {
     font-size: 18px;
     margin-top: 4px;
 }
+/* Aula 15/09 */
+
+footer {
+    padding: 45px 8%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 50px;
+    background-color: #171717;
+    border-top: 1px solid #e63946;
+}
+
+footer strong {
+    font-size: 20px;
+}
+
+footer p {
+    color: #777;
+    font-size: 13px;
+    margin-top: 8px;
+    max-width: 300px;
+}
